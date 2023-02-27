@@ -1,0 +1,6 @@
+<div class='form'>
+  <ng-container *ngFor="let item of items">
+    <label [for]="item" >{{item|uppercase}}:</label>
+    <input [id]="item" [value]="item"/>
+  </ng-container>
+</div>
