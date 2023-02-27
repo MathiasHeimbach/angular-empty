@@ -1,8 +1,0 @@
-p {
-  font-family: Lato;
-}
-
-div.form {
-  display: grid;
-  grid-template-columns: auto 1fr;
-}
